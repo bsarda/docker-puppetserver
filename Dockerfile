@@ -1,6 +1,5 @@
 # written by Benoit Sarda
-# creates a postgresql 9.5.4, working with CentOS 7.2 1511. compatible with puppetdb and foreman.
-#
+# creates a puppetserver on centos 7.
 #   bsarda <b.sarda@free.fr>
 #
 FROM centos:centos7.2.1511
