@@ -9,7 +9,7 @@ MAINTAINER Benoit Sarda <b.sarda@free.fr>
 EXPOSE 8140
 # env variables
 # including AUTOSIGN parameters (csv values)
-ENV hostname=puppet.local MEMORY_MB_TO_HAVE=2048 AUTOSIGN=*.local,puppettest*
+ENV MEMORY_MB_TO_HAVE=2048 AUTOSIGN=*.local,puppettest*
 
 # install packages
 RUN rpm -Uvh https://yum.puppetlabs.com/puppetlabs-release-pc1-el-$(uname -r | sed 's/.*el\([0-9]\).*/\1/g').noarch.rpm && \
